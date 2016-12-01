@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<!--
+	Halcyonic by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Halcyonic by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/extra.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/ivan-style.css" />
+		
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/menu-top.js" ></script>
+	</head>
+	<body>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="stickyheader">
+				
+					<header id="header" class="container">
+						<div  class="row">
+							<div class="12u">
+								<div id="wrap-menu">
+								<!-- Logo -->
+									<h1><a href="#" id="logo"><img src="images/content/design11.png" alt=""/></a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">HOME</a>
+										<a href="#">INVESTORS</a>
+										<a href="#">BUSINESS</a>
+										<a href="#">BLOG</a>
+										<a href="#">FAQ</a>
+										<a id="dropdown-about">ABOUT US
+												<img src="images/select-bg.png"></a>
+										<ul class="sub-menu">
+										    <li><a href="about.html">ABOUT US</a></li>
+										    <li><a href="#">CONTACT US</a></li>
+										    <li><a href="partners.html">PARTNERS</a></li>
+										    <li><a href="member.html">MEMBERS OF</a></li>
+										</ul>
+										<a href="#" class="button-green">SIGN UP</a>
+										<a href="#" class="button-orange">LOGIN <img class="locker" src="images/effects/Lock-Lock-icon-24.png" alt=""/></a>
+										<!--<a href="threecolumn.html">Three Column</a>-->
+										<!--<a href="twocolumn1.html">Two Column #1</a>-->
+										<!--<a href="twocolumn2.html">Two Column #2</a>-->
+										<!--<a href="onecolumn.html">One Column</a>-->
+									</nav>
+
+
+								</div>
+							</div>
+						</div>
+					</header>
+					
+					<div >
+						<div class="container">
+							<div class="row">
+							<br/>
+								<div id="about-content" class="6u 12u(mobile) ">
+
+									<!-- Banner Copy -->
+										<p id="title-about">Our Vision</p>
+										<div class="info-about">Cultivate entrepreneurship by empowering businesses and investors with a trusted and vibrant crowd-lending platform</div>
+
+								</div>
+								
+								<div id="about-content" class="6u 12u(mobile) ">
+
+									<p id="title-about" >Our Mission</p>
+										<div class="info-about">
+											Help businesses grow via a collaborative funding platform
+											Provide the Investor community with more choices of attractive yields</div>
+								</div>
+							</div>
+							<div class="row">
+								<div id="about-content" class="12u 12u(mobile)">
+
+									<!-- Banner Copy -->
+										<p id="title-about">What Motivates Us</p>
+										<div class="info-about">Being involved in the financial sector for more than a decade, we realised that capital and opportunities gravitate towards the “big boys” and become motivated to address the structural impediments towards entrepreneurship, focusing on SMEs.</div>
+										<div class="info-about">We are interested to champion a specific process innovation that has taken root in many parts of the world – peer to peer lending. We feel that this new route of capital allocation will make the financial system more inclusive and participative for the benefit of the society at large.</div>
+
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Features -->
+				<div id="features-wrapper">
+
+					<div id="features">
+						<div class="container">
+						<h1>Management Team</h1><br/>
+							<div class="row">
+								<div class="4u 12u(mobile)">
+									<!-- Feature #1 -->
+										<section >
+											<a href="#" class="bordered-feature-image"><img  src="images/DSC00603169_gs.jpg" alt="" /></a>
+										</section>
+
+								</div>
+								<div class="8u 12u(mobile)">
+									<!-- Feature #1 -->
+										<section >
+											
+											<h2>Lawrence Yong (Co-Founder, CEO)</h2>
+											<p>
+												Lawrence is responsible for the strategic planning, overall management, and business development of MoolahSense. More than 12 years in the field, Lawrence had worked extensively in the financial services sector, acquiring a combination of front-to-back, buy- and sell-side experiences, particularly in the area of Fixed Income.
+											</p>
+											<p>
+												Lawrence spent the 1st half of his professional life in Wealth Management, with his last role heading an award-winning investment product team at Standard Chartered Bank. Before founding MoolahSense, Lawrence was a Vice President at Macquarie Capital where he was closely involved in developing its sales and structuring business at the Fixed Income division.
+											</p>
+											<p>
+												Lawrence first graduated with a Bachelor of Business Administration with Honors from the National University of Singapore in 2002. He then completed his Masters of Financial Engineering from the same university in 2010. Lawrence also holds the designations of Financial Risk Manager (FRM) and Chartered Alternative Investment Analyst (CAIA).
+											</p>
+										</section>
+
+								</div>
+								
+								
+							</div>
+							<div class="row">
+								<div class="4u 12u(mobile)">
+
+									<!-- Feature #1 -->
+										<section>
+											<a href="#" class="bordered-feature-image"><img  src="images/black-and-white-685x1024.jpg" alt="" /></a>
+										</section>
+								</div>
+								<div class="8u 12u(mobile)">
+
+									<!-- Feature #1 -->
+										<section>
+											
+											<h2>Chung Wei Tuck (Co-Founder, COO)</h2>
+											<p>
+												Wei Tuck leads the development and optimisation of the business processes and manages daily operations. Wei Tuck has over 10 years of experience in the financial services industry working mainly in the Wealth Management area.
+											</p>
+											<p>
+												His most recent appointment was Vice President at Barclays Wealth advising high net worth clients on various investments.
+											</p>
+											<p>Wei Tuck holds a Masters in Applied Finance from the University of Adelaide and a Bachelor of Business Administration with Honors from the National University of Singapore.</p>
+										</section>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="8u 12u(mobile)">
+
+								<!-- Links -->
+									<section>
+										<h2>Links to Important Stuff</h2>
+										<div>
+											<div class="row">
+												<div class="3u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li><a href="#">Neque amet dapibus</a></li>
+														<li><a href="#">Sed mattis quis rutrum</a></li>
+														<li><a href="#">Accumsan suspendisse</a></li>
+														<li><a href="#">Eu varius vitae magna</a></li>
+													</ul>
+												</div>
+												<div class="3u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li><a href="#">Neque amet dapibus</a></li>
+														<li><a href="#">Sed mattis quis rutrum</a></li>
+														<li><a href="#">Accumsan suspendisse</a></li>
+														<li><a href="#">Eu varius vitae magna</a></li>
+													</ul>
+												</div>
+												<div class="3u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li><a href="#">Neque amet dapibus</a></li>
+														<li><a href="#">Sed mattis quis rutrum</a></li>
+														<li><a href="#">Accumsan suspendisse</a></li>
+														<li><a href="#">Eu varius vitae magna</a></li>
+													</ul>
+												</div>
+												<div class="3u 12u(mobile)">
+													<ul class="link-list last-child">
+														<li><a href="#">Neque amet dapibus</a></li>
+														<li><a href="#">Sed mattis quis rutrum</a></li>
+														<li><a href="#">Accumsan suspendisse</a></li>
+														<li><a href="#">Eu varius vitae magna</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<div class="4u 12u(mobile)">
+
+								<!-- Blurb -->
+									<section>
+										<h2>An Informative Text Blurb</h2>
+										<p>
+											Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. Suspendisse eu
+											varius nibh. Suspendisse vitae magna eget odio amet mollis. Duis neque nisi,
+											dapibus sed mattis quis, sed rutrum accumsan sed. Suspendisse eu varius nibh
+											lorem ipsum amet dolor sit amet lorem ipsum consequat gravida justo mollis.
+										</p>
+									</section>
+
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

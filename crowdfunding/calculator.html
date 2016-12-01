@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Loan Calculator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/extra.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/ivan-style.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/menu-top.js" ></script>
+	</head>
+
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="stickyheader">
+					<header id="header" class="container">
+						<div class="row">
+							<div class="12u">
+
+								<!-- Logo -->
+									<h1><a href="#" id="logo"><img src="images/content/design11.png" alt=""/></a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">HOME</a>
+										<a href="#">INVESTORS</a>
+										<a class="active-menu" href="#">BUSINESS</a>
+										<a href="#">BLOG</a>
+										<a href="#">FAQ</a>
+										<a id="dropdown-about">ABOUT US
+												<img src="images/select-bg.png"></a>
+										<ul class="sub-menu">
+										    <li><a href="about.html">ABOUT US</a></li>
+										    <li><a href="#">CONTACT US</a></li>
+										    <li><a href="partners.html">PARTNERS</a></li>
+										    <li><a href="member.html">MEMBERS OF</a></li>
+										</ul>
+										<a href="#" class="button-green">SIGN UP</a>
+										<a href="#" class="button-orange">LOGIN <img class="locker" src="images/effects/Lock-Lock-icon-24.png" alt=""/></a>
+										<!--<a href="threecolumn.html">Three Column</a>-->
+										<!--<a href="twocolumn1.html">Two Column #1</a>-->
+										<!--<a href="twocolumn2.html">Two Column #2</a>-->
+										<!--<a href="onecolumn.html">One Column</a>-->
+									</nav>
+
+							</div>
+						</div>
+					</header>
+
+				</div>
+            <!-- Banner -->
+            <div id="banner-investitor">
+                <div class="container member-top bottom-padding">
+                    <div class="calc-wrapper row">
+                        <div class="6u ">
+                            <div id="calculator" >
+                            <p class="center calc-titles">Loan Calculator</p>
+                            	<div class="loan-type-label">Type of loan:</div>
+                            	<div class="type-loan">
+                            		<select name="loan-type">
+                            		<option selected="true">Equal Instalment</option>
+                            	</select>
+                            	</div>
+                            	<div id="amount" >
+                            		<span>Amount:</span><input type="text" placeholder="S$1000" class="rate"/><br/><input id="range" type="range"/>
+                            		<div class="btn-wrapper-amount"><button class="amount-btn">-</button><button class="amount-btn">+</button></div>
+                            	</div>
+                            	<br/>
+                            	<div class="loan-type-label">Tenor:</div>
+                            	<div class="type-loan">
+                            		<select name="loan-type">
+                            		<option selected="true">1 Months</option>
+                            		<option selected="true">3 Months</option>
+                            		<option selected="true">6 Months</option>
+                            		<option selected="true">9 Months</option>
+                            		<option selected="true">12 Months</option>
+                            	</select>
+                            	</div>
+                            	<div id="rate" ><span>Rate:</span><input type="text" placeholder="Target rate" class="rate"/> %</div>
+                            	<button id="calculate-btn" >Calculate</button>
+                            </div>
+                        </div>
+                        <div class="6u">
+                        	<p class="center calc-titles">Your Quick Quote</p>
+                        	<div class="result-calc">Total Interest Payable: 0</div>
+                        	<div class="result-calc">Monthly Repayment: 0</div>
+                        	<div class="result-calc">MoolahSense Fees of: 0</div>
+                        	<div class="result-calc">Target Effective Rate %p.a: 0</div>
+                        	<div class="center"><button class="button-green-calcululator center">Sign Up Now</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="12u 12u(mobile)">
+
+								<!-- Links -->
+                                <section>
+                                    <!--<h2>Links to Important Stuff</h2>-->
+                                    <div>
+                                        <div class="row">
+                                            <div class="3u 12u(mobile)">
+                                                <ul class="link-list last-child">
+                                                    <h4 class="footer-titles">About Us</h4>
+                                                    <li><a href="#">Contact Us</a></li>
+                                                    <li><a href="#">About Us</a></li>
+                                                    <li><a href="#">Legal Terms</a></li>
+                                                    <li><a href="partners.html">Partners</a></li>
+                                                    <li><a href="member.html">Members Of</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="3u 12u(mobile)">
+                                                <ul class="link-list last-child">
+                                                    <h4 class="footer-titles">For Investors</h4>
+                                                    <li><a href="#">Campaigns</a></li>
+                                                    <li><a href="#">How it works for investors</a></li>
+                                                    <li><a href="#">FAQ for investors</a></li>
+                                                    <li><a href="#">&nbsp;</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="3u 12u(mobile)">
+                                                <ul class="link-list last-child">
+                                                    <h4 class="footer-titles">For Businesses</h4>
+                                                    <!--            <a href="">Rates and Fees</a><br/>-->
+                                                    <!--            <a href="">Requirements</a><br/>-->
+                                                    <li><a href="#">How it works for businesses</a></li>
+                                                    <li><a href="#">FAQ for businesses</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="2u 12u(mobile)">
+                                                <ul class="link-list last-child">
+                                                    <h4 class="footer-titles">Get Social</h4>
+                                                    <li><a href="https://www.facebook.com/MoolahSense"><i class="fa fa-facebook-square"></i>&nbsp;Facebook</a></li>
+                                                    <li><a href="https://www.linkedin.com/company/moolahsense-private-limited"><i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn</a></li>
+                                                    <li><a href="https://twitter.com/MoolahSense"><i class="fa fa-twitter-square"></i>&nbsp;Twitter</a></li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="1u">
+                                                <img id="ssl" src="https://www.positivessl.com/images-new/PositiveSSL_tl_trans2.png" alt="SSL Certificate" title="SSL Certificate" border="0" />
+                                            </div>
+                                            <!--<div class="3u 12u(mobile)">-->
+                                            <!-- -->
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+                                </section>
+
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u 12u(mobile)">
+								<!-- Blurb -->
+								<section>
+									<h2 class="important-msg-title">IMPORTANT MESSAGE:</h2>
+									<p class="important-msg">MoolahSense is not licensed and/or regulated by the Monetary Authority of Singapore, and the funds placed by the Payees and the Issuers in the MoolahSense Account are monies of the Payees and the Issuers respectively, to be applied for purposes directed by the Payees and the Issuers. Monies placed in the MoolahSense Account are not, and shall not be, deposits as defined under the Banking Act (Cap. 19) of Singapore.Neither MoolahSense nor any of its directors, officers, employees, representatives, affiliates or agents shall have any liability whatsoever arising, for any error or incompleteness of fact or opinion in, or lack of care in the preparation or publication, of the materials posted on this website. MoolahSense does not give investment advice, provide analysis or recommendations regarding any offering posted on the website. The content and material available on the platform are for informational purposes only and should not be regarded as an offer, solicitation, invitation, advice or recommendation to buy or sell investments, securities or any other financial services or banking product. For full list of disclaimers, please refer to section 11 of the Standard T&Cs.</p>
+								</section>
+							</div>
+						</div>
+
+					</footer>
+				</div>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; Copyright  &copy; 2015  MoolahSense.com.  All rights reserved. | Design: <a href="#">WebSkillers</a>
+				</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

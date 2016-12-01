@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SoftMatrix</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/caruosel.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-form.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#footer").load("includes/footer.html");
+        });
+    </script>
+</head>
+<body>
+<!-- ==========================================================
+                            START HEADER
+   =============================================================== -->
+<header class="navbar navbar-inverse navbar-static-top custom-nav header-border">
+    <section class="container nav-section">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">
+                <img class="logo" src="images/logo12.gif" alt="SoftMatrix">
+            </a>
+        </div>
+        <nav class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav custom-nav">
+                <li>
+                    <a href="index.html">Началото</a>
+                </li>
+                <li class="active">
+                    <a href="apply.html">Кандидатсвай</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Създаването...</a>
+                </li>
+				<li>
+                    <a href="education.html">Обучение</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Искам още
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Създателите</li>
+                        <li><a href="https://lubomirjurukov.wordpress.com/">Любомир Юруков</a></li>
+                        <li><a href="http://pgrozdev.com/">Пламен Гроздев</a></li>
+                        <li><a href="http://nemalp.com/">Пламен Лазаров</a></li>
+                        <li><a href="http://teodorpopoff.wordpress.com/">Теодор Попов</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<!-- Application Form -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="name" placeholder="Please enter your full name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="col-sm-2 control-label">Tell us something about you</label>
+                    <div class="col-sm-8">
+                        <textarea rows="10" class="form-control" id="message" placeholder="Why do you want to join us?"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="gender" class="col-sm-2 control-label">Gender</label>
+                    <div class="col-sm-8">
+                        <label class="radio-inline">
+                            <input type="radio" name="gender" value="option1"/>Male
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="gender" value="option2"/>Female
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="age" class="col-sm-2 control-label">Age</label>
+                    <div class="col-sm-1">
+                        <input type="text" class="form-control" placeholder="Age"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="city" class="col-sm-2 control-label">City</label>
+                    <div class="col-sm-8">
+                        <select name="city" class="form-control">
+                            <option value="sofia">Sofia</option>
+                            <option value="plovdiv">Plovdiv</option>
+                            <option value="varna">Varna</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="alert('You don\'t really think that we are going to accept you right? :)')">Apply now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer id="footer"></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

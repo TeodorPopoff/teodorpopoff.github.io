@@ -1,0 +1,11 @@
+body {
+    background: url("../images/black-and-blue-cube-background.jpg");
+}
+
+#gallery .page-header {
+    color: #ffffff;
+}
+
+.thumbnail img {
+    margin: 0;
+}

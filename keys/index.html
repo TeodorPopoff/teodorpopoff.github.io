@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keys – Support</title>
+<meta name="description" content="Support for Keys, the photo catalog of your keys for iPhone and iPad. Contact, FAQ and troubleshooting.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f8fb;
+    --card: #ffffff;
+    --text: #12263f;
+    --muted: #5a6b80;
+    --accent: #107d9e;
+    --accent-text: #ffffff;
+    --border: #dbe4ee;
+    --hero-1: #123470;
+    --hero-2: #1896a8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1522;
+      --card: #12202f;
+      --text: #e8f0f7;
+      --muted: #9db0c3;
+      --accent: #3cb8d2;
+      --accent-text: #06202a;
+      --border: #22364a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--hero-1), var(--hero-2));
+    color: #fff;
+    padding: 56px 20px 64px;
+    text-align: center;
+  }
+  .hero .icon {
+    width: 96px; height: 96px; border-radius: 22%;
+    background: rgba(255,255,255,.14);
+    display: inline-flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,.25);
+    margin-bottom: 16px;
+  }
+  .hero .icon svg { width: 56px; height: 56px; }
+  .hero h1 { margin: 0 0 8px; font-size: 2.2rem; letter-spacing: -.02em; }
+  .hero p { margin: 0 auto; max-width: 34rem; opacity: .92; }
+  .lang {
+    position: absolute; top: 14px; right: 14px;
+    display: flex; gap: 4px;
+    padding: 3px; border-radius: 999px;
+    background: rgba(255,255,255,.18);
+  }
+  .lang button {
+    font: inherit; font-size: .85rem; font-weight: 600;
+    border: 0; border-radius: 999px; padding: 5px 12px;
+    background: transparent; color: #fff; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { background: #fff; color: #123470; }
+  main { max-width: 760px; margin: -32px auto 48px; padding: 0 16px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px 24px 20px;
+    margin-bottom: 18px;
+  }
+  h2 { margin: 0 0 12px; font-size: 1.3rem; letter-spacing: -.01em; }
+  p { margin: 0 0 12px; }
+  .muted { color: var(--muted); font-size: .95rem; }
+  a { color: var(--accent); }
+  .button {
+    display: inline-block;
+    background: var(--accent); color: var(--accent-text);
+    text-decoration: none; font-weight: 600;
+    padding: 11px 22px; border-radius: 12px; margin: 4px 0 10px;
+  }
+  .button:hover { filter: brightness(1.08); }
+  details { border-top: 1px solid var(--border); padding: 12px 0; }
+  details:first-of-type { border-top: 0; }
+  summary { cursor: pointer; font-weight: 600; list-style: none; padding-right: 24px; position: relative; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; position: absolute; right: 2px; top: 0; font-size: 1.2rem; color: var(--accent); }
+  details[open] summary::after { content: "–"; }
+  details p, details ol, details ul { margin: 10px 0 0; }
+  details ol, details ul { padding-left: 1.3rem; }
+  details li { margin-bottom: 4px; }
+  dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; }
+  footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 0 16px 40px; }
+  [data-l] { display: none; }
+  html[lang="en"] [data-l="en"], html[lang="bg"] [data-l="bg"] { display: revert; }
+  html[lang="en"] span[data-l="en"], html[lang="bg"] span[data-l="bg"] { display: inline; }
+  @media (max-width: 520px) {
+    dl { grid-template-columns: 1fr; gap: 0; }
+    dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-set="en" aria-pressed="true">EN</button>
+    <button type="button" data-set="bg" aria-pressed="false">БГ</button>
+  </div>
+  <div class="icon" aria-hidden="true">
+    <svg viewBox="0 0 100 100" fill="#fff"><g transform="rotate(-45 50 50)">
+      <path fill-rule="evenodd" d="M12 50a17 17 0 1 0 34 0a17 17 0 1 0 -34 0ZM22 50a7 7 0 1 1 14 0a7 7 0 1 1 -14 0Z"/>
+      <rect x="42" y="46.5" width="44" height="7" rx="3.5"/>
+      <rect x="69" y="50" width="6" height="12" rx="2"/>
+      <rect x="78" y="50" width="6" height="9" rx="2"/></g></svg>
+  </div>
+  <h1>Keys</h1>
+  <p data-l="en">Support for the photo catalog of your keys.</p>
+  <p data-l="bg">Поддръжка за фото каталога на вашите ключове.</p>
+</header>
+
+<main>
+
+  <section id="contact">
+    <h2 data-l="en">Contact us</h2>
+    <h2 data-l="bg">Свържете се с нас</h2>
+    <p data-l="en">Have a question, found a problem, or want to suggest a feature? Send us an e-mail and we will get back to you as soon as possible, usually within 2 business days.</p>
+    <p data-l="bg">Имате въпрос, открихте проблем или искате да предложите функция? Пишете ни по e-mail и ще ви отговорим възможно най-бързо, обикновено до 2 работни дни.</p>
+    <a class="button" href="mailto:heybulgaria@outlook.com?subject=Keys%20support">heybulgaria@outlook.com</a>
+    <p class="muted" data-l="en">To help us solve your problem faster, please include your iPhone or iPad model, your iOS version and a short description of what happened.</p>
+    <p class="muted" data-l="bg">За да решим проблема ви по-бързо, моля посочете модела на вашия iPhone или iPad, версията на iOS и кратко описание какво се е случило.</p>
+  </section>
+
+  <section id="faq">
+    <h2 data-l="en">Frequently asked questions</h2>
+    <h2 data-l="bg">Често задавани въпроси</h2>
+
+    <details>
+      <summary><span data-l="en">How do I add a key?</span><span data-l="bg">Как да добавя ключ?</span></summary>
+      <ol data-l="en">
+        <li>Tap the <strong>+</strong> button at the top right.</li>
+        <li>Enter a description, for example which door the key opens.</li>
+        <li>Tap each photo area and choose <strong>Take photo</strong> or <strong>Choose from library</strong> for both sides of the key.</li>
+        <li>Tap <strong>Save</strong>.</li>
+      </ol>
+      <ol data-l="bg">
+        <li>Натиснете бутона <strong>+</strong> горе вдясно.</li>
+        <li>Въведете описание, например коя врата отваря ключът.</li>
+        <li>Натиснете всяко поле за снимка и изберете <strong>Снимай</strong> или <strong>Избери от галерията</strong> за двете страни на ключа.</li>
+        <li>Натиснете <strong>Запази</strong>.</li>
+      </ol>
+    </details>
+
+    <details>
+      <summary><span data-l="en">How do I replace a photo or edit a description?</span><span data-l="bg">Как да сменя снимка или да редактирам описание?</span></summary>
+      <p data-l="en">Tap the key in the list to open it. Tap the photo you want to change and choose a new one by taking a photo or picking one from your library. You can also remove a photo, or edit the description, then tap <strong>Save</strong>.</p>
+      <p data-l="bg">Натиснете ключа в списъка, за да го отворите. Натиснете снимката, която искате да смените, и изберете нова – чрез снимане или от галерията. Можете и да премахнете снимка или да промените описанието, след което натиснете <strong>Запази</strong>.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">How do I delete a key?</span><span data-l="bg">Как да изтрия ключ?</span></summary>
+      <p data-l="en">Swipe the key to the left in the list and tap <strong>Delete</strong>, or open the key and tap <strong>Delete key</strong> at the bottom. You will be asked to confirm. Deleting a key also removes both of its photos and cannot be undone.</p>
+      <p data-l="bg">Плъзнете ключа наляво в списъка и натиснете <strong>Изтрий</strong>, или отворете ключа и натиснете <strong>Изтриване на ключ</strong> най-долу. Ще бъдете помолени да потвърдите. Изтриването премахва и двете снимки на ключа и не може да бъде отменено.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">How do I back up my keys?</span><span data-l="bg">Как да направя архив на ключовете си?</span></summary>
+      <p data-l="en">Tap the database icon at the top left and choose <strong>Export database</strong>. Keys creates a single file with all your keys, photos and descriptions. Save it to Files or iCloud Drive, or send it with AirDrop or e-mail.</p>
+      <p data-l="bg">Натиснете иконата за база данни горе вляво и изберете <strong>Изтегляне на базата данни</strong>. Keys създава един файл с всичките ви ключове, снимки и описания. Запазете го във Файлове или iCloud Drive, или го изпратете през AirDrop или по e-mail.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">How do I restore a backup or merge another list?</span><span data-l="bg">Как да възстановя архив или да добавя друг списък?</span></summary>
+      <p data-l="en">Tap the database icon and choose <strong>Import database</strong>, then select a database file you exported earlier. The keys in the file are added to your current list. Nothing is overwritten, and keys that are already in your list are skipped. When it finishes, the app shows how many keys were added.</p>
+      <p data-l="bg">Натиснете иконата за база данни и изберете <strong>Добавяне на база данни</strong>, след което изберете файл, който сте изтеглили по-рано. Ключовете от файла се добавят към текущия ви списък. Нищо не се презаписва, а ключовете, които вече са в списъка, се пропускат. Накрая приложението показва колко ключа са добавени.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">Where is my data stored? Is it private?</span><span data-l="bg">Къде се пазят данните ми? Поверителни ли са?</span></summary>
+      <p data-l="en">All photos and descriptions are stored only on your device. Keys has no accounts, no ads and does not send your data anywhere. Your data leaves the device only when you choose to export it. Please note that an exported database file is not password-protected, so keep it somewhere safe.</p>
+      <p data-l="bg">Всички снимки и описания се пазят само на вашето устройство. Keys няма акаунти, няма реклами и не изпраща данните ви никъде. Данните напускат устройството само когато вие решите да ги изтеглите. Имайте предвид, че изтегленият файл с база данни не е защитен с парола, затова го пазете на сигурно място.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">I deleted the app or got a new phone – are my keys gone?</span><span data-l="bg">Изтрих приложението или имам нов телефон – загубени ли са ключовете ми?</span></summary>
+      <p data-l="en">Because data is stored only on your device, deleting the app removes it too. To move to a new device or to be safe, export your database regularly (see above) and import it on the new device.</p>
+      <p data-l="bg">Тъй като данните се пазят само на вашето устройство, изтриването на приложението ги премахва. За да преминете на ново устройство или за по-голяма сигурност, изтегляйте базата данни редовно (виж по-горе) и я добавете на новото устройство.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">The camera does not open when I tap “Take photo”.</span><span data-l="bg">Камерата не се отваря, когато натисна „Снимай“.</span></summary>
+      <p data-l="en">Keys needs permission to use the camera. Open <strong>Settings → Apps → Keys</strong> (or <strong>Settings → Keys</strong> on older versions) and turn on <strong>Camera</strong>. You can always choose existing photos from your library instead.</p>
+      <p data-l="bg">Keys се нуждае от разрешение да ползва камерата. Отворете <strong>Настройки → Приложения → Keys</strong> (или <strong>Настройки → Keys</strong> при по-стари версии) и включете <strong>Камера</strong>. Винаги можете да изберете готови снимки от галерията.</p>
+    </details>
+
+    <details>
+      <summary><span data-l="en">Import says the file is not a valid Keys database.</span><span data-l="bg">При добавяне пише, че файлът не е валидна база данни на Keys.</span></summary>
+      <p data-l="en">Only database files exported from Keys can be imported. Make sure you picked the <code>.sqlite</code> file created by <strong>Export database</strong>, and that it was not renamed, edited or compressed. If the file is stored in iCloud Drive, wait until it has finished downloading to your device.</p>
+      <p data-l="bg">Могат да се добавят само файлове с база данни, изтеглени от Keys. Уверете се, че сте избрали <code>.sqlite</code> файла, създаден чрез <strong>Изтегляне на базата данни</strong>, и че не е преименуван, редактиран или архивиран. Ако файлът е в iCloud Drive, изчакайте да се изтегли напълно на устройството.</p>
+    </details>
+  </section>
+
+  <section id="requirements">
+    <h2 data-l="en">App information</h2>
+    <h2 data-l="bg">Информация за приложението</h2>
+    <dl>
+      <dt data-l="en">Works on</dt><dt data-l="bg">Работи на</dt>
+      <dd data-l="en">iPhone and iPad with iOS / iPadOS 18 or later</dd>
+      <dd data-l="bg">iPhone и iPad с iOS / iPadOS 18 или по-нова</dd>
+      <dt data-l="en">Languages</dt><dt data-l="bg">Езици</dt>
+      <dd data-l="en">English, Bulgarian (follows your device language)</dd>
+      <dd data-l="bg">Български, английски (според езика на устройството)</dd>
+      <dt data-l="en">Internet</dt><dt data-l="bg">Интернет</dt>
+      <dd data-l="en">Not required – the app works fully offline</dd>
+      <dd data-l="bg">Не е необходим – приложението работи изцяло офлайн</dd>
+      <dt data-l="en">Contact</dt><dt data-l="bg">Контакт</dt>
+      <dd><a href="mailto:heybulgaria@outlook.com?subject=Keys%20support">heybulgaria@outlook.com</a></dd>
+    </dl>
+  </section>
+
+</main>
+
+<footer>
+  <span data-l="en">© 2026 Keys. All rights reserved.</span>
+  <span data-l="bg">© 2026 Keys. Всички права запазени.</span>
+</footer>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var buttons = document.querySelectorAll('.lang button');
+  function setLang(lang) {
+    root.setAttribute('lang', lang);
+    document.title = lang === 'bg' ? 'Keys – Поддръжка' : 'Keys – Support';
+    buttons.forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-set') === lang));
+    });
+    try { localStorage.setItem('keys-support-lang', lang); } catch (e) {}
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.getAttribute('data-set')); });
+  });
+  var saved = null;
+  try { saved = localStorage.getItem('keys-support-lang'); } catch (e) {}
+  var detected = (navigator.language || 'en').toLowerCase().indexOf('bg') === 0 ? 'bg' : 'en';
+  setLang(saved === 'bg' || saved === 'en' ? saved : detected);
+})();
+</script>
+</body>
+</html>
